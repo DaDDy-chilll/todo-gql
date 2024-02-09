@@ -1,2 +1,4 @@
-const User = require('./users.model');
-const Todo = require('./todo.model');
+const Users = require('./users.model');
+const Todos = require('./todo.model');
+
+module.exports = {Users,Todos}
